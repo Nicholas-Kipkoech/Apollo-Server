@@ -1,0 +1,16 @@
+{
+  "name": "apollo-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "compile":"tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "@types/node": "^18.15.5",
+    "graphql": "^16.6.0"
+  }
+}
